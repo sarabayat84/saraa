@@ -1,0 +1,27 @@
+# دریافت نمره از کاربر
+1
+
+score = float(input("لطفا نمره دانشجو را وارد کنید: "))
+
+if score > 90:
+    result = "عالی"
+elif score > 70:
+    result = "خوب"
+elif score > 50:
+    result = "متوسط"
+else:
+    result = "مردود"
+
+print(f"نمره شما: {score} - وضعیت: {result}")
+
+
+
+
+2
+num1 = float(input("عدد اول را وارد کنید: "))
+num2 = float(input("عدد دوم را وارد کنید: "))
+num3 = float(input("عدد سوم را وارد کنید: "))
+num4 = float(input("عدد چهارم را وارد کنید: "))
+
+max_num = max(num1, num2, num3, num4)
+print(f"بزرگترین عدد: {max_num}")
